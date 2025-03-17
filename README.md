@@ -11,14 +11,13 @@ A local proxy server application that injects custom JavaScript into Amazon.com 
 - Injects custom JavaScript into Amazon web pages
 - Safely restores original proxy settings on exit
 - Includes comprehensive error handling and cleanup
-- 
 ## Technical Implementation
 
 This application is built using:
 - C# (.NET)
 - [Titanium.Web.Proxy](https://github.com/justcoding121/Titanium-Web-Proxy) library for proxy functionality
 
-- ## Current JavaScript Functionality
+ ## Current JavaScript Functionality
 
 The current implementation injects JavaScript that:
 1. Creates a popup notification in the center of the screen
